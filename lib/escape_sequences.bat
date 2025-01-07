@@ -13,3 +13,6 @@ pause
 
 :: Ends the batch file or closes the Command Prompt window.
 exit
+
+
+:: THE PROGRAM MUST INCLUDE pause OR exit TO BE RAN
