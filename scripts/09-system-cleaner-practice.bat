@@ -1,5 +1,5 @@
 @echo off
-title Advanced Cleaner by Lorenzo
+title System Cleaner by Lorenzo
 
 
 :: Check for Administrator Privileges

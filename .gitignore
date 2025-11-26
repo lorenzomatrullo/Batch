@@ -1,1 +1,47 @@
+## OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+## Logs and temporary files
+*.log
+*.tmp
+*.temp
+*~
+
+## Compiled binaries and build artifacts
 *.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.lib
+*.so
+*.dylib
+*.class
+bin/
+build/
+dist/
+out/
+
+## Package and environment directories
+node_modules/
+jspm_packages/
+bower_components/
+.venv/
+venv/
+env/
+.python_env/
+
+## IDE and editor settings
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+.history/
+
+## Backup files
+*.bak
+*.orig
+*.rej

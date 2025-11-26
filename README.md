@@ -1,28 +1,45 @@
-# Batch
+## Windows Batch Programming
+
+This repository is a small, hands-on Windows Batch scripting course in a single folder.  
+Each `.bat` file is a tiny, runnable example that focuses on one concept, and the files are numbered so you can follow them like a short textbook you can execute.
+
+You can open any script, read the comments, and then run it to see what happens in a real Command Prompt session.
+
+<br>
+
+## Requirements
+- Windows with access to Command Prompt (`cmd.exe`) or PowerShell.
+- The official **Batch/Command Prompt** language support (built into Windows terminals) and a basic syntax highlighter for `.bat` files (VS Code provides this out of the box).
+
+<br>
 
 ## Learning Path
+### Basics
 
-1. Basics
-- [Echo](libs/echo.bat)
-- [Variables & User Input](libs/variables_user%20input.bat)
-- [Escape Sequences](libs/escape_sequences.bat)
-- [Command-Line Parameters](libs/parameters.bat)
+- [01 – Basic Commands and Comments](libs/01-basic-commands-and-comments.bat)
+- [02 – Echo and Output](libs/02-echo-and-output.bat)
+- [03 – Variables and User Input](libs/03-variables-and-user-input.bat)
 
-2. Control flow
-- [IF Statements](libs/if_statements.bat)
-- [FOR Loop](libs/for_loop.bat)
-- [Labels and GOTO](libs/labels.bat)
+### Control Flow
 
-3. Operators and expressions
-- [Comparison Operators](libs/comparison_operators.bat)
+- [04 – If Statements](libs/04-if-statements.bat)
+- [05 – Comparison Operators](libs/05-comparison-operators.bat)
+- [06 – For Loops](libs/06-for-loops.bat)
+- [07 – Labels and GOTO](libs/07-labels-and-goto.bat)
 
-4. Utilities and practice
-- [Cleaner Script](scripts/cleaner.bat)
+### Commands and Parameters
 
----
+- [08 – Command Parameters and Switches](libs/08-command-parameters-and-switches.bat)
 
-Tip: Run any script by double-clicking it in Explorer or from a terminal:
+### Practice Scripts / Mini Projects
 
-```bat
-cmd /c libs\echo.bat
-```
+- [09 – System Cleaner Practice Script](scripts/09-system-cleaner-practice.bat)
+
+
+<br>
+
+## How to work through the repo
+- New to Batch scripting? Start at `01-...` in the `libs` folder and move forward in numeric order.  
+  Read the comments in each script, then run it and experiment by changing values.
+- Need a reminder on a topic? Jump to the relevant section in the **Learning Path** above and open the matching file.
+- Preparing for exams, interviews, or real-world scripting tasks? Work through the numbered lessons, then study and modify the practice script to see how the concepts combine into a more complete utility.
