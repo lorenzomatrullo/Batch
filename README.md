@@ -1,6 +1,6 @@
 ## Windows Batch Programming
 
-This repository is a small, hands-on Windows Batch scripting course in a single folder.  
+This repository is a small, hands-on Windows Batch, an interpreter-based scripting language, scripting course in a single folder.  
 Each `.bat` file is a tiny, runnable example that focuses on one concept, and the files are numbered so you can follow them like a short textbook you can execute.
 
 You can open any script, read the comments, and then run it to see what happens in a real Command Prompt session.
